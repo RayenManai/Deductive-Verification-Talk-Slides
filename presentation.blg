@@ -1,0 +1,17 @@
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[0] Config.pm:307> INFO - Logfile is 'presentation.blg'
+[73] biber:322> INFO - === Sa Sep 17, 2022, 14:30:21
+[86] Biber.pm:415> INFO - Reading 'presentation.bcf'
+[148] Biber.pm:943> INFO - Found 2 citekeys in bib section 0
+[160] Biber.pm:4256> INFO - Processing section 0
+[160] Utils.pm:75> INFO - Globbing data source 'presentation.bib'
+[161] Utils.pm:91> INFO - Globbed data source 'presentation.bib' to presentation.bib
+[170] Biber.pm:4455> INFO - Looking for bibtex format file 'presentation.bib' for section 0
+[171] bibtex.pm:1653> INFO - LaTeX decoding ...
+[173] bibtex.pm:1471> INFO - Found BibTeX data source 'presentation.bib'
+[182] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[182] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[182] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[182] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[184] bbl.pm:652> INFO - Writing 'presentation.bbl' with encoding 'UTF-8'
+[185] bbl.pm:755> INFO - Output to presentation.bbl

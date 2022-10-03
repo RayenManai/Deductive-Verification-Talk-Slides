@@ -1,0 +1,16 @@
+\frametitle{Proof example}
+	"The axioms quoted above are sufficient to construct the proof of properties of simple
+programs, for example, a routine intended to find the quotient q and remainder r obtained on
+dividing x by y. All variables are assumed to range over a set of nonnegative integers
+conforming to the axioms listed in Table I"
+The proposed program is:
+\center
+\begin{lstlisting}
+    r = x;
+    q = 0;
+    while (y <= r) {
+	    r = r - y;
+	    q = q + 1;
+	    }
+\end{lstlisting}
+
